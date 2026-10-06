@@ -1,0 +1,11 @@
+Repositórios:
+Local:
+ - in loco no seu computador, 
+ - Gerenciador de versões - GIT
+
+Remoto:
+ - On-line
+ - HostNet
+ - GitHub
+
+ Push - atualizar o repositório remoto.

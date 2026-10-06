@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fontex Externas</title>
+    <style>
+        @font-face {
+            font-family:'Love';
+            src:url(fontes/love\ larry\ ttf.ttf) format(truetype);
+            font-weight: normal;
+            font-style: normal;
+            /*
+                Tipos de format()
+                - opentype (otf)
+                - truetype (ttf)
+                - embedded-opentype
+                - truetype-aat (apple advanced typography)
+                - svg
+            */
+        }
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        h1{
+            font-family: 'Love', Times, serif;
+            font-size: 3em;
+            font-weight: normal;
+         }
+    </style>
+</head>
+<body>
+    <h1>Olá, mundo!</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos provident quis commodi expedita esse minus excepturi quam qui minima dolores, asperiores non exercitationem modi vitae eius, numquam molestiae ut accusamus.</p>
+</body>
+</html>
